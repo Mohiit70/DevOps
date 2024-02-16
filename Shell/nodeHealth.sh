@@ -10,9 +10,15 @@
 #######################
 
 set -x # debug mode
+set -e # exit the script when there is an error
+set -o # pipefail
+
+# set -exo pipefail
 
 df-h
 
 free -g
 
 nproc
+
+ps -ef | grep python | awk -F " " '{print $2}'
