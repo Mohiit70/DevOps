@@ -1,0 +1,17 @@
+"hello" : i am learning yaml
+1: "this is Mohit's roll number"
+---
+# lists
+- apple
+- mango
+- banana
+- Apple 
+---
+cities:
+  - new delhi
+  - dehradun
+  - mumbai
+---
+cities: [new delhi, mumbai]
+---
+{mango: "yellow fruit, age: 90"}

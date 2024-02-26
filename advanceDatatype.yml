@@ -1,0 +1,7 @@
+student: !!seq
+- marks
+- name
+- roll_no
+
+# like this also 
+cities: ["Dehradun", delhi]

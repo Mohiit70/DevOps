@@ -1,0 +1,50 @@
+# String variable
+name : mohit bisht
+fruit: "apple"
+job: "swe"
+
+bio: | 
+hey my name is mohit bisht.
+and i am learning yaml.
+
+# write a single line in multiple line
+message: >
+this will
+all be 
+in one
+single line
+
+# same as
+message: this will all be in one single line
+
+number: 5634
+marks: 99.22
+booleanValue: !!bool No # n, N, false, False, FALSE
+# same for true -> yes, y, Y
+
+# specify the type
+zero: !!int 0
+postiveNum: !!int 56
+negativeNum: !!int -56
+binaryNum: !!int 0b11001
+octalNum: !!int 06574
+hexa: !!int 0x45
+coomaValue: !!int +540_000 #540,000
+exponential numbers: 6.023E56
+
+# floating point number
+marks: !!float 67.7
+infite: !!float .inf
+not a num: .negativeNum # nan
+
+# null
+surname: !!null Null # or null Null
+~: this is a null key 
+
+# dates and times
+date : !!timestamp 2024-2-12
+india: !!timestamp 2024-2-12T02:59:34.10 + 5:30
+no time zone: 2024-2-12T02:59:34.10
+
+
+
