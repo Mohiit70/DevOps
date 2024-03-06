@@ -20,7 +20,7 @@ However, VMs come with their own set of challenges. Setting up a VM requires ins
 
 Containers offer a more efficient solution. Like physical shipping containers, which store and transport goods, containers store all the necessary components of an application in a portable and isolated environment. This includes the code, runtime, system tools, libraries, and settings required for the application to run.
 
-![Bike and Car](https://app.eraser.io/workspace/zh3ipem8tYPb6lIVryaz/preview?elements=cIBzVx4dGdSk9TjZAoAw2A)
+![Bike and Car](file:///C:/Users/hp/Downloads/Blue%20Yellow%20Retro%20Quotes%20Twitter%20Header.png)
 
 #### Container vs. VM
 
